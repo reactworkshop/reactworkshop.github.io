@@ -1,0 +1,1 @@
+module.exports=__NEXT_REGISTER_PAGE("/",function(){var e=webpackJsonp([2],{191:function(e,t,r){e.exports=r(192)},192:function(e,t,r){"use strict";Object.defineProperty(t,"__esModule",{value:true});var n=r(13);var o=r.n(n);t["default"]=function(){return o.a.createElement("div",null,"Welcome to React Workshop Europe")}}},[191]);return{page:e.default}});
