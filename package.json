@@ -1,0 +1,19 @@
+{
+  "name": "reactworkshop.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/reactworkshop/reactworkshop.github.io",
+  "author": "Philipp Spieß and Nicolas Dular",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
