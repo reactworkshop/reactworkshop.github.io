@@ -15,6 +15,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "yarn build && yarn next export && git subtree push --prefix out origin master"
+    "deploy": "yarn build && yarn next export && git-directory-deploy --directory out/ --branch master"
+  },
+  "devDependencies": {
+    "git-directory-deploy": "^1.5.1"
   }
 }
